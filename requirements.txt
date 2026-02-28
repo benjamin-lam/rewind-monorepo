@@ -1,0 +1,9 @@
+chromadb==0.4.24
+sentence-transformers==2.5.1
+streamlit==1.32.0
+fastapi==0.110.0
+uvicorn==0.27.1
+pypandoc==1.13
+textstat==0.7.3
+pandas==2.2.1
+python-dotenv==1.0.1

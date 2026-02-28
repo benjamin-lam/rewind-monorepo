@@ -1,0 +1,21 @@
+[project]
+name = "rewind"
+version = "0.1.0"
+description = "A semantic writing environment and memory for content creators."
+authors = [
+    {name = "Benjamin Lam (blame76)", email = "benjamin-lam@outlook.de"}
+]
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+    "chromadb>=0.4.0",
+    "sentence-transformers",
+    "streamlit",
+    "fastapi",
+    "pypandoc",
+    "textstat"
+]
+
+[project.urls]
+Homepage = "https://github.com/benjamin-lam/rewind-monorepo/"
+Bug-Tracker = "https://github.com/benjamin-lam/rewind-monorepo/issues"
